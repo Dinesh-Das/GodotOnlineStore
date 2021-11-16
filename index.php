@@ -1,0 +1,543 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Godot Store</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="css/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="top-nav-bar">
+		<div class="search-box">
+				<i class="fa fa-bars" id="menu-btn" onClick="openmenu()"></i>
+				<i class="fa fa-times" id="close-btn" onClick="closemenu()"></i>
+				<img src="images/godot_logo.jpg" class="logo">
+				<input type="text" class="form-control">
+				<span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
+		</div>
+		<div class="menu-bar">
+			<ul>
+				<li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Cart</a></li>
+				<li><a href="registrationform.php">Signup</a></li>
+				<li><a href="loginform.php">Login</a></li>		
+			</ul>
+		</div>
+	</div>
+<section class="header">
+<div class="sidemenu" id="sidemenu">
+	<ul>
+	<li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="GiftBasketsandHampers.php">Gift Baskets and Hampers</a>
+		<!--<ul>
+		<li>Gift Hamper of Love Gifts</li>
+		<li>Indian Chocolates Hamper</li>
+		<li>Luxury Chocolate Ferrero Rocher Hamper</li>
+		<li>Festival Special Gift Hamper</li>
+		</ul>-->	
+		
+	</li>
+	<li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="personalisedgifts.php">Personalised Gifts</a>
+		<ul>
+		<a href="personalisedgifts.php"><li>Cushion</li></a>
+		<a href="personalisedgifts.php"><li>Name Plate</li></a>
+		<a href="personalisedgifts.php"><li>Photo-Frame</li></a>
+		</ul>	
+	
+	</li>
+	<li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="customprintedproducts.php">Mobile Covers</a>	
+	
+	</li>
+	<li><i class="fa fa-angle-right" aria-hidden="true"></i>Aniversary Gifts
+		<ul>
+			<li><a href="personalisedgifts.php">Photo Frame</a>	</li>
+			<li><a href="GiftBasketsandHampers.php">Sweets Chocolate</a></li>
+		</ul>	
+	
+	</li>	
+	<li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="personalisedgifts.php">Photo Frame</a>	
+	</li>	
+	<li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="customprintedproducts.php">Printed T-Shirts</a>
+	
+	</li>	
+	<li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="customprintedproducts.php">Printed Cups</a>
+		
+	</li>	
+	</ul>
+</div>
+<div class="slider">	
+	<div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
+  	<div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/cushion2.jpg" height="500px" class="d-block w-100"  >
+    </div>
+    <div class="carousel-item">
+      <img src="images/christmas -similar.jpg" height="500px" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="images/gh3.jpg" height="500px" class="d-block w-100" >
+    </div>
+	  <div class="carousel-item">
+      <img src="images/pf3.jpg" height="500px" class="d-block w-100">
+    </div>
+  </div>
+		<ol class="carousel-indicators">
+    <li data-target="#slider" data-slide-to="0" class="active"></li>
+    <li data-target="#slider" data-slide-to="1"></li>
+    <li data-target="#slider" data-slide-to="2"></li>
+	<li data-target="#slider" data-slide-to="3"></li>
+  </ol> 
+</div>
+</div>
+</section>
+<!-- Featured categories -->
+<section class="featured-catregories">
+	<div class="container">
+		<div class="title-box">
+				<h2>Featured</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+					<img src="images/featured1.jpg" height="300px">
+			</div>
+			<div class="col-md-4">
+				<img src="images/featured 2.jpg" height="300px">
+			</div>
+			<div class="col-md-4">
+				<img src="images/featured3.jpg" height="300px">
+			</div>
+		</div>
+	</div>
+</section>
+<!-- on sale products -->
+<section class="on-sale">
+	<div class="container">
+		<div class="title-box">
+				<h2>On Sale</h2>
+		</div>
+		<div class="row">
+				<!-- product 1 -->
+			<div class="col-md-3">
+				<div class="product-top">
+					<img src="images/pf1.jpg">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+				</div>
+				<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>Simple Photoframe with Designed Borders</h3>
+						<h5>Rs. 799</h5>
+				</div>
+			</div>
+				<!-- product 2 -->
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="images/np1.jpg" height="150px">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>Acrylic Mirror Design Name Plate</h3>
+						<h5>Rs. 1499</h5>
+					</div>
+				</div>
+				<!-- product 3 -->
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="images/cushion1.jpg" height="150px">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>LED Cushion</h3>
+						<h5>Rs. 499</h5>
+					</div>
+				</div>
+				<!-- product 4 -->
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="images/festival special hamper-similar.jpg" height="150px">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>Festival Sepcial Hamper</h3>
+						<h5>Rs. 799</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- New Products -->
+	<section class="new-products">
+		<div class="container">
+		<div class="title-box">
+				<h2>New Arrivals</h2>
+		</div>
+		<div class="row">
+				<!-- product 1 -->
+			<div class="col-md-3">
+				<div class="product-top">
+					<img src="images/gh3.jpg">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+				</div>
+				<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>Indian Chocolates Hamper</h3>
+						<h5>Rs. 500</h5>
+				</div>
+			</div>
+				<!-- product 2 -->
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="images/g5.jpeg">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>Luxury Chocolate Ferrero Rocher Hamperh</h3>
+						<h5>Rs. 999</h5>
+					</div>
+				</div>
+				<!-- product 3 -->
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="images/christmas -similar.jpg" height="250px">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>Festival Special Gift Hamper</h3>
+						<h5>Rs. 499</h5>
+					</div>
+				</div>
+				<!-- product 4 -->
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="images/cushion3.jpg" height="250px">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>Printed Cushion</h3>
+						<h5>Rs. 249</h5>
+					</div>
+				</div>
+					<!-- product 5 -->
+			<div class="col-md-3">
+				<div class="product-top">
+					<img src="images/pf4.jpg" height="250px">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+				</div>
+				<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>Stylish Photo Frame</h3>
+						<h5>Rs. 1599</h5>
+				</div>
+			</div>
+				<!-- product 6 -->
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="images/np4.jpg" height="250px">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>Glossy Finish Wooden Name Plate</h3>
+						<h5>Rs. 999</h5>
+					</div>
+				</div>
+				<!-- product 7 -->
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="images/pf3.jpg" height="250px">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>New Design PhotoFrame</h3>
+						<h5>Rs. 999</h5>
+					</div>
+				</div>
+				<!-- product 8 -->
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="images/np5.jpg" height="250px">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>Premium Matt Finish Wooden Name Plate</h3>
+						<h5>Rs. 1599</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</section>
+	
+	<!-- website features -->
+	<section class="website-features">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 feature-box">
+					<img src="images/org.jpg">
+					<div class="feature-text">
+					<p><b>100% Orignal items</b> are available at our store</p>
+					</div>
+				</div>
+				<div class="col-md-3 feature-box">
+					<img src="images/return30days.png">
+					<div class="feature-text">
+					<p><b>Return within 30days</b> of recieveing your order.</p>
+					</div>
+				</div>
+				<div class="col-md-3 feature-box">
+					<img src="images/free.png">
+					<div class="feature-text">
+					<p><b>Get free delivery for every </b>order on more than 5000.</p>
+					</div>
+				</div>
+				<div class="col-md-3 feature-box">
+					<img src="images/card.png">
+					<div class="feature-text">
+					<p><b>Pay Online through multiple</b> options(card/netbanking) </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<!---------------------- footer area ------------------- -->
+	
+	<section class="footer">
+		<div class="container tex-center">
+			<div class="row">
+				<div class="col-md-3">
+					<h1>Useful Links</h1>
+					<p>Privacy Policy</p>
+					<p>Terms of use</p>
+					<p>Return Policy</p>
+					<p>Discount Coupons </p>
+				</div>
+				<div class="col-md-3">
+					<h1>Company</h1>
+					<p><a href="aboutus.php">About Us</p></a>
+					<p><a href="contact_form.php">Contact Us</a></p>
+					<p>Career</p>
+					<p>Affiliate </p>
+				</div>
+				<div class="col-md-3">
+					<h1>Follow Us On</h1>
+					<p><i class="fa fa-facebook-official"></i><a href="https://www.facebook.com/DevilGamerx1?ref=bookmarks">Facebook</p></a>
+					<p><i class="fa fa-youtube-play"></i><a href="https://www.youtube.com/watch?v=8kZNH9-1suY"> Youtube</p></a>
+					<p><i class="fa fa-twitter"></i><a href="https://twitter.com/devilgamerx"> Twitter</p></a>
+					<p><i class="fa fa-instagram"></i><a href="https://www.instagram.com/dinesh._.das/">
+						Instagram </p></a>
+				</div>
+				<div class="col-md-3 footer-image">
+					<h1>Download App</h1>
+					<a href="https://play.google.com/store/apps?hl=en"><img src="images/Icon Google play.png"></a>
+					<a href="https://www.apple.com/ios/app-store/"><img src="images/appstore.png"></a>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright &copy <a href="https://godot.in">Godot</a> Store. All Rights Reserved <i class="fa fa-heart-o"></i>.</p>
+		</div>
+	
+	</section>
+	<script>
+	function openmenu(){
+		document.getElementById("sidemenu").style.display="block";
+		document.getElementById("menu-btn").style.display="none";
+		document.getElementById("close-btn").style.display="block";
+	}
+		function closemenu(){
+		document.getElementById("sidemenu").style.display="none";
+		document.getElementById("menu-btn").style.display="block";
+		document.getElementById("close-btn").style.display="none";
+	}
+	</script>
+		
+</body>
+</html>

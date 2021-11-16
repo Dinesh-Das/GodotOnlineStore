@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Gift Baskets and Hampers</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="css/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="top-nav-bar">
+		<div class="search-box">
+				<i class="fa fa-bars" id="menu-btn" onClick="openmenu()"></i>
+				<i class="fa fa-times" id="close-btn" onClick="closemenu()"></i>
+				<a href="index.php"><img src="images/godot_logo.jpg" class="logo"></a>
+				<input type="text" class="form-control">
+				<span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
+		</div>
+		<div class="menu-bar">
+			<ul>
+				<li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Cart</a></li>
+				<li><a href="registrationform.php">Signup</a></li>
+				<li><a href="loginform.php">Login</a></li>		
+			</ul>
+		</div>
+	</div>
+	<!-- Single product -->
+<section class="single-product">
+<div class="container">
+	<div class="row">
+	<div class="col-md-5">
+	
+	<div id="product-slider" class="carousel slide carousel-fade" data-ride="carousel">
+  	<div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/gh1.jpg" height="450px" class="d-block w-100"  >
+    </div>
+    <div class="carousel-item">
+      <img src="images/g5.jpeg" height="450px" class="d-block w-100 " >
+    </div>
+    <div class="carousel-item">
+      <img src="images/gh3.jpg" height="450px" class="d-block w-100 " >
+    </div>
+		<div class="carousel-item">
+      <img src="images/gh4.jpg" height="450px" class="d-block w-100 " >
+    </div>
+		  <a class="carousel-control-prev" href="#product-slider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#product-slider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div> 
+</div>
+		
+	</div>
+	<div class="col-md-7">
+		<p class="new-arrival text-center">New</p>
+			<h2>Luxury Chocolate Ferrero Rocher Hamper</h2>
+			<p>Procuct code :12112391</p>
+			<i class="fa fa-star"></i>	
+			<i class="fa fa-star"></i>	
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>	
+			<i class="fa fa-star-half"></i>	
+		<p class="price">Rs 3000</p>
+		<p><b>Availibility:</b> In Stock</p>
+	<!--	<p><b>Condition:</b> New</p> -->
+		<p><b>Brand:</b> Godot</p>
+		<label>Quantity:</label>
+		<input type="text" value="1">
+		<button type="button" class="btn btn-primary">Add To Cart</button>
+		</div>	
+	</div>
+</div>
+</section>
+<!-- ---------------------Product description-------- -->
+	<section class="product-description">
+	<div class="container">
+	<h6>Product Description</h6>
+	<p>Chocolate is loved by everyone and that’s why this is a perfect gift for any occasion. So, treat your loved one's tastebuds with this delicious chocolate bouquet. Send that special person in your life some romance with this sparkling gourmet chocolate treat</p>
+	<p>Luxury Chocolate Ferrero Rocher Hamper for any occasion. Birthdays, Anniversaries, Fathers day, Get well soon, Thank you for Teachers,
+For passing exams, And much more .
+Hamper contains; 
+
+1 x Necklace and Earrings Set (Styles May Vary) 
+
+1 x Bangle Set (Styles May Vary) 
+
+1 x Ferrero Rocher Chocolates Box 
+
+1 x Bindi Set 
+
+6 x Artificial flowers 
+
+1 x Greeting card and Holder 
+
+1 x Basket 25cm Diameter 
+
+Please let us know if you would like a personalised message with your hamper and we will be happy to send one. 
+They come cellophaned and packaged in bubble wrap to keep them protected. 
+Please see individual wrappers for allergy information. Send us a message for any further information. 
+If you can't find a Bouquet or Hamper to suit, send us a message and we will be happy to make a bespoke one for you. </p>
+	<hr>
+		</div>
+
+<div class="container">
+		<div class="title-box">
+				<h2>Similar Products</h2>
+		</div>
+		<div class="row">
+				<!-- product 1 -->
+			<div class="col-md-3">
+				<div class="product-top">
+					<img src="images/festival special hamper-similar.jpg">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+				</div>
+				<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>Festival Special Gift Hamper</h3>
+						<h5>Rs. 799</h5>
+				</div>
+			</div>
+				<!-- product 2 -->
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="images/diwali special gift -similar.jpg" height="254px">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>Diwali Special Gift Hamper</h3>
+						<h5>Rs. 999</h5>
+					</div>
+				</div>
+				<!-- product 3 -->
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="images/christmas -similar.jpg" height="254px">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>Christmas Special</h3>
+						<h5>Rs. 999</h5>
+					</div>
+				</div>
+				<!-- product 4 -->
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="images/soan-papdi-n-dry-fruits-hamper_1.webp">
+						<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<i class="fa fa-eye"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart-o"></i>	
+						</button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart">
+							<i class="fa fa-shopping-cart"></i>	
+						</button>	
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star"></i>	
+						<i class="fa fa-star-half"></i>	
+						<h3>Soan Papdi And Dry Fruits Hamper</h3>
+						<h5>Rs. 500</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- footer-->
+	<section class="footer">
+		<div class="container tex-center">
+			<div class="row">
+				<div class="col-md-3">
+					<h1>Useful Links</h1>
+					<p>Privacy Policy</p>
+					<p>Terms of use</p>
+					<p>Return Policy</p>
+					<p>Discount Coupons </p>
+				</div>
+				<div class="col-md-3">
+					<h1>Company</h1>
+					<p><a href="aboutus.php">About Us</p></a>
+					<p><a href="contact_form.php">Contact Us</a></p>
+					<p>Career</p>
+					<p>Affiliate </p>
+				</div>
+				<div class="col-md-3">
+					<h1>Follow Us On</h1>
+					<p><i class="fa fa-facebook-official"></i><a href="https://www.facebook.com/DevilGamerx1?ref=bookmarks">Facebook</p></a>
+					<p><i class="fa fa-youtube-play"></i><a href="https://www.youtube.com/watch?v=8kZNH9-1suY"> Youtube</p></a>
+					<p><i class="fa fa-twitter"></i><a href="https://twitter.com/devilgamerx"> Twitter</p></a>
+					<p><i class="fa fa-instagram"></i><a href="https://www.instagram.com/dinesh._.das/">
+						Instagram </p></a>
+				</div>
+				<div class="col-md-3 footer-image">
+					<h1>Download App</h1>
+					<img src="images/Icon Google play.png">
+					<img src="images/appstore.png">
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright &copy <a href="https://godot.in">Godot</a> Store. All Rights Reserved <i class="fa fa-heart-o"></i>.</p>
+		</div>
+	
+	</section>
+	
+</body>
+</html>
